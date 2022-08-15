@@ -7,30 +7,24 @@ body {
     background-color: #FF8000;
     display: flex;
     flex-direction: row;
+    align-content: space-between;
 }
 
 .flex-container>div {
-    width: 100px;
+    height: 100px;
+    width: max-content;
     margin: 10px;
 }
 
-.logo-orange1 {
-    width: 106px;
-    height: 26px;
-    left: 151px;
-    top: 29px;
+.menu {
+    justify-content: right;
+    
 }
 
-.menu {
-    width: 32px;
-    height: 39px;
-    left: 21px;
-    top: 24px;
+.logo-orange1 {
+    justify-content: center;
 }
 
 .settings-icon {
-    width: 28px;
-    height: 28px;
-    left: 351px;
-    top: 26px;
+    justify-content: left;
 }
