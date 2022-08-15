@@ -1,8 +1,6 @@
 #carpeta de imagenes e iconos
-image/
+*.svg
 
 #IDE - VSCode
-.vscode/
-!.vscode\launch.json
-!.vscode\settings.json
+*.json
 
