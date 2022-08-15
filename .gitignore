@@ -1,8 +1,8 @@
 #carpeta de imagenes e iconos
-\just_eat\image
+image/
 
 #IDE - VSCode
-.vscode/*
+.vscode/
 !.vscode\launch.json
 !.vscode\settings.json
 
